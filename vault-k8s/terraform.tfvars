@@ -1,0 +1,7 @@
+namespace                 = "vault"
+secret                    = "injector-tls"
+secret_path               = "kv/vault-agent-injector/tls-certs/dev"
+kubernetes_config_path    = "~/.kube/config"
+kubernetes_config_context = "minikube"
+vault_address             = "http://127.0.0.1:8200"
+vault_token               = ""
